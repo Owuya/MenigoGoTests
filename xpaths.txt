@@ -1,0 +1,32 @@
+FAVORITELIST FLOW:
+
+Home, Heart icon:
+(//android.view.ViewGroup[@focusable='true'])[3]
+
+Favorite list:
+//*[contains(@class,'android.widget.TextView')][contains(@text,'App Regression')]
+
+"+ Lägg till" knapp:
+(//*[contains(@class,'android.widget.TextView')][contains(@text,'Lägg till')])[1]
+
+Öppna produkt Modal:
+//*[contains(@class,'android.view.ViewGroup')][contains(@resource-id,'quickOrderTestResult0')]
+
+Search - Add heart icon:
+(//android.widget.ImageView)[2]
+
+Search - Close:
+//android.widget.Button[@content-desc="Stäng, back"]
+
+Check if added, List, Product name:
+//*[contains(@class,'android.widget.TextView')][contains(@text,'iKaffe 3%')]
+
+Remove from list, List view:
+(//android.widget.ImageView)[2]
+
+
+Increse button to shoppingcart:
+(//android.view.ViewGroup[@focusable='true'])[5]
+
+Decrease button to shoppingcart:
+(//android.view.ViewGroup[@focusable='true'])[4]
