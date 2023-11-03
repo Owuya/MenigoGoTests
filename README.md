@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# MenigoGO Appium Test project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Work in pregress...
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+What things you need to install the software and how to install them
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+- Java
+- Maven
+- IntelliJ
+- Selenium
+- TestNG
+- Appium
+- Android Studio
+```
+<!--
+### Installing
 
-### `npm test`
+A step by step series of examples that tell you how to get a development env running
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Say what the step will be
 
-### `npm run build`
+```
+Give the example
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+And repeat
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+until finished
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+End with an example of getting some data out of the system or using it for a little demo
+-->
+## Running the tests
 
-### `npm run eject`
+Explain how to run the automated tests for this system
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Break down into end to end tests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Explain what these tests test and why
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+Give an example
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### And coding style tests
 
-## Learn More
+Explain what these tests test and why
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Give an example
+```
+<!--
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Add additional notes about how to deploy this on a live system 
+-->
 
-### Code Splitting
+## Built With
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [Appium](https://appium.io/) - **Automation for Apps:** Appium is an open source test automation framework for use with native, hybrid and mobile web apps.
+  It drives iOS, Android, and Windows apps using the WebDriver protocol.
+* [Appium Inspector](https://github.com/appium/appium-inspector) - A GUI inspector for mobile apps and more
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDE for the development of tests with Appium
+* [Android Studio](https://developer.android.com/studio)- IDE with Android Emulator to emulat an android Device for easy testing.
+<!--
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+-->
+<!--
+## Versioning
+-->
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+* **Marcus Johansson**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+No license
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
+* **Björn Stålhammar, For startup and helping setup project, And all the help along the way**
+<!--
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
+  -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
