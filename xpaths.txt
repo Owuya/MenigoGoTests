@@ -1,3 +1,10 @@
+Open 2nd product modal from a campaign on home screen:
+(//android.widget.ImageView)[2]
+
+Add product:
+//android.view.ViewGroup[3]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]
+
+
 FAVORITELIST FLOW:
 
 Home, Heart icon:
@@ -30,3 +37,5 @@ Increse button to shoppingcart:
 
 Decrease button to shoppingcart:
 (//android.view.ViewGroup[@focusable='true'])[4]
+
+//To trigger new commit..

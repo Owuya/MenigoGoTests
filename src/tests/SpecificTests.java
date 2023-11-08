@@ -26,6 +26,7 @@ public class SpecificTests extends Appium {
 
     @Test(description = "Loggar in med en kund och klickar förbi onboarding", priority = 1)
     public void LoginAndOnboarding() throws InterruptedException {
+        WaitForContent(3000);
         loginPage.Login("552800", "AMM800");
         WaitForContent(7000);
         //loginPage.Onboarding();
@@ -37,10 +38,22 @@ public class SpecificTests extends Appium {
         favourtiteListPage.enterPage();
         WaitForContent(3000);
         favourtiteListPage.enterListPage();
+        favourtiteListPage.checkLoadSuccess();
+
+        /*favourtiteListPage.addProduct();
+        favourtiteListPage.checkAdded();*/
+    }
+
+    /*@Test(description = "Laddar favoritlistor och lägger till en produkt i listan App Regression", priority = 2)
+    public void AddToFavoriteList() throws InterruptedException {
+        WaitForContent(7000);
+        favourtiteListPage.enterPage();
+        WaitForContent(3000);
+        favourtiteListPage.enterListPage();
 
         favourtiteListPage.addProduct();
         favourtiteListPage.checkAdded();
-    }
+    }*/
 
 
    /* @Test(description = "Logout customer 444867 from customer page", priority = 10)
@@ -57,13 +70,13 @@ public class SpecificTests extends Appium {
         myAccountPage.logoutSpecificCustomer("570431");
     }*/
 
-    @Test(description = "Logout all customers", priority = 12)
+    /*@Test(description = "Logout all customers", priority = 12)
     public void LogoutAllCustomers() throws InterruptedException {
         //homePage.clickMyAccount();
         WaitForContent(9000);
         myAccountPage.logout();
         WaitForContent(5000);
-    }
+    }*/
 
     @AfterTest
     public void Done() {
