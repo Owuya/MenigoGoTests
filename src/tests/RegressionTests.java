@@ -17,7 +17,7 @@ public class RegressionTests extends Appium {
     private static final AddCustomerPage addCustomerPage = new AddCustomerPage();
     private static final ShelfLabelPage shelflablePage = new ShelfLabelPage();
     private static final CustomerPage customerPage = new CustomerPage();
-    //private static final FavouriteListPage favourtiteListPage = new FavouriteListPage();
+    private static final FavouriteListPage favourtiteListPage = new FavouriteListPage();
 
     @BeforeSuite
     public void Start() {
@@ -101,6 +101,7 @@ public class RegressionTests extends Appium {
         myAccountPage.ClickAddCustomerNumberMenu();
         addCustomerPage.Login("444867", "444867");
         System.out.println("Logged in with 444867");
+        WaitForContent(7000);
         myAccountPage.ClickAddCustomerNumberMenu();
         addCustomerPage.Login("570431", "570431");
         System.out.println("Logged in with 570431");
@@ -197,7 +198,22 @@ public class RegressionTests extends Appium {
         quickOrderPage.closeOpenProductModal();
     }
 
-    /*@Test(description = "Laddar favoritlistor och lägger till en produkt i listan App Regression", priority = 11)
+    @Test(description = "Laddar favoritlistor och lägger till en produkt i listan App Regression", priority = 11)
+    public void LoadingFavoriteList() throws InterruptedException {
+        WaitForContent(7000);
+        quickOrderPage.ClickBackToHome();
+        favourtiteListPage.enterPage();
+        WaitForContent(3000);
+        favourtiteListPage.enterListPage();
+        favourtiteListPage.checkLoadSuccess();
+
+        homePage.clickMyAccount2();
+
+        /*favourtiteListPage.addProduct();
+        favourtiteListPage.checkAdded();*/
+    }
+
+    /*@Test(description = "Laddar favoritlistor och lägger till en produkt i listan App Regression", priority = 12)
     public void AddToFavoriteList() throws InterruptedException {
         quickOrderPage.ClickBackToHome();
         favourtiteListPage.enterPage();
