@@ -38,4 +38,4 @@ Increse button to shoppingcart:
 Decrease button to shoppingcart:
 (//android.view.ViewGroup[@focusable='true'])[4]
 
-//To trigger new commit..
+//To trigger new commit...
