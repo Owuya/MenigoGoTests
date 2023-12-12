@@ -14,7 +14,7 @@ public class FavouriteListPage {
     }
 
     private WebElement enterPageElement() throws InterruptedException {
-        WebElement heartIcon = appium.GetElementByXpath("(//android.view.ViewGroup[@focusable='true'])[1]",7000);
+        WebElement heartIcon = appium.GetElementByXpath("//*[contains(@class,'android.view.ViewGroup')][contains(@resource-id,'FavoriteListButton')]",7000);
         return heartIcon;
     }
 
